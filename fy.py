@@ -170,10 +170,6 @@ def main():
     # dietary_preferences = input("Enter your dietary preferences (e.g., vegan, gluten-free): ")
     print("\n")
     print_json_file()
-    # suggestions = get_recipe_suggestions(ingredients, dietary_preferences)
-    # print("\nHere are some creative recipe suggestions for you:")
-    # print(suggestions)
-
     # Store the suggestions in ChromaDB
     # store_suggestions_in_chromadb(suggestions, ingredients, dietary_preferences)
 
